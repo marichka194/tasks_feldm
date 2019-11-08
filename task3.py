@@ -29,7 +29,6 @@ def main():
     column_names = [name[0] for name in c.description]
     create_csv(column_names, transactions)
 
-    conn.commit()
     conn.close()
 
 

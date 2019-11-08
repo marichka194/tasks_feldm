@@ -12,7 +12,6 @@ def main():
             LIMIT 1''')
     print(c.fetchall())
 
-    conn.commit()
     conn.close()
 
 

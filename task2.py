@@ -12,7 +12,6 @@ def main():
         SELECT datetime, MAX(revenue_by_day) FROM transactions_by_day''')
     print(c.fetchall())
 
-    conn.commit()
     conn.close()
 
 
