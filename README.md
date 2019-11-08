@@ -21,8 +21,8 @@ In the project directory you see the following files:
       README                  this file
 
 
-Requirements
+Installation
 ------------
 
-The minimum requirement is to have SQLAlchemy version 1.3.10 installed.
+Run pip install -r requirements.txt to install dependencies.
 
